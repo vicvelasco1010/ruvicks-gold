@@ -1,0 +1,9 @@
+{
+  "name": "cursor-projects-railway-root",
+  "private": true,
+  "description": "Railway builds from repo root; the Node app lives in personal-portal/.",
+  "scripts": {
+    "build": "npm install --prefix personal-portal && npm run build --prefix personal-portal",
+    "start": "npm start --prefix personal-portal"
+  }
+}
